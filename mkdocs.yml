@@ -1,3 +1,28 @@
 site_name: Longchamps Protocols
 theme:
+  logo: assets/FDL_Logo.png
+  favicon: assets/favicon/favicon.ico"
   name: material
+  font:
+    text: DM Sans
+
+  
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle: 
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: deep purple
+      accent: deep purple
+
+    # Light mode
+    - scheme: defualt
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+
+
