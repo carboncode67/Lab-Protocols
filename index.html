@@ -13,7 +13,7 @@
         <link rel="next" href="Emlids/Emlid_GNSS/">
       
       
-      <link rel="icon" href="assets/favicon/favicon.ico"">
+      <link rel="icon" href="assets/favicon/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
@@ -285,9 +285,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#general-mkdocs-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      General mkdocs Commands
     </span>
   </a>
   
@@ -414,9 +414,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#general-mkdocs-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      General mkdocs Commands
     </span>
   </a>
   
@@ -451,14 +451,25 @@
 <p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
 <h2 id="to-contribute-to-this-documentation">To contribute to this documentation:</h2>
 <ul>
-<li>clone and unzip this repository</li>
 <li>use <code>pip install mkdocs mkdocs-material</code> to install mkdocs and the Material theme</li>
-<li>Create a new .md document in the docs folder inside the repository folder</li>
-<li>open a command terminal inside the repository and enter mkdocs build to update the site database.</li>
-<li>Push the updated repository to the Github repository.</li>
+<li>Open a terminal window in the directory where you wish to download the repostiory and enter <code>git clone https://github.com/carboncode67/Lab-Protocols.git</code></li>
+<li>enter <code>cd Lab-Protocols</code>.</li>
+<li>Create a new .md document in the docs folder inside "Lab-Protocols/docs. If adding multiple documents, you can create a sub directory in the docs folder and add .md docs there.</li>
+<li>If you want to see your changes live, you can enter <code>mkdocs serve</code> and navigate to the displayed url to see updates and errors as you work.<ul>
+<li>If you are including images in the documentation, and your new doc .md file is in the root docs directory add them to <code>Lab-Protocols/docs/assets</code>, and then link to them in your documentation using <code>"![image](assets/image.png)"</code> (without the quotation marks). If your new doc is in its own folder, add the images to that folder and reference directly. </li>
 </ul>
-<p>Done!</p>
-<h2 id="commands">Commands</h2>
+</li>
+<li>Once changes are made, use the following commands (or github desktop) to push the changes to the main repo.</li>
+</ul>
+<pre><code class="language-sh">git add .
+git commit -m &quot;Add/Update docs: &lt;describe updates added here&gt;&quot;
+git push 
+</code></pre>
+<ul>
+<li>run <code>mkdocs gh-deploy</code> to deploy the site.
+Done!</li>
+</ul>
+<h2 id="general-mkdocs-commands">General mkdocs Commands</h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
 <li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
@@ -466,7 +477,7 @@
 <li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
 <h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
+<pre><code>mkdocs.yml    # The configuration file (Be careful editing this ).
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
@@ -519,7 +530,7 @@ docs/
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
