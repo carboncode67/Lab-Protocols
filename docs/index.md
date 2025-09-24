@@ -13,7 +13,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ```sh
 git add .
 git commit -m "Add/Update docs: <describe updates added here>"
-git push origin main
+git push 
 ```
 * run `mkdocs gh-deploy` to deploy the site.
 Done!
