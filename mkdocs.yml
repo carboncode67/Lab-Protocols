@@ -1,12 +1,22 @@
 site_name: Longchamps Protocols
 theme:
   logo: assets/FDL_Logo.png
-  favicon: assets/favicon/favicon.ico"
+  favicon: assets/favicon/favicon.ico
   name: material
   font:
     text: DM Sans
 
-  
+  markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  theme:
+  features:
+    - content.code.copy
   palette: 
     # Dark Mode
     - scheme: slate

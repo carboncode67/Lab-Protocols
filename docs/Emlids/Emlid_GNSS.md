@@ -9,3 +9,7 @@ The Emlids can be used as a base/rover pair or as individual rovers working in p
 The base can be setup either as 
 
 
+
+### Setting Up LoRa Communications
+
+![Image](Emlid_LoRa_frequency.png)
