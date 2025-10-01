@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to the Farmer Datalab Documentation Repository
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site contains information, methodologies and guides for instrumentation and practices commonly used in the Longchamps Farmer Data Lab
 
 ## To contribute to this documentation:
 * Open a terminal window in the directory where you wish to download the repostiory and enter `git clone https://github.com/carboncode67/Lab-Protocols.git`
@@ -41,3 +41,5 @@ Done!
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).

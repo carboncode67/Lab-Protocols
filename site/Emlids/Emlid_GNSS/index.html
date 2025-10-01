@@ -208,6 +208,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
   </nav>
   
@@ -576,7 +616,7 @@
 
 
 
-<div id="mkdocs-encrypted-content" style="display:none">BV21oe5ven7aGe2687ym9g==;Kz84mxVXhOvIVZufJpKhRInI5dtJgKQHxd4foXvvMMAjv+JPPRFq+b5gO/0B5sVlp5r6FNTR5FSQeU81mQFr81YKTzod5fAmrLrjY9FH3+XeL/EAOPXLiWE3ElaaPxGp5k4d5gPSAV5MmEsGNhHRXQBupkyHCRpdO63le14EK5uyOnjHIaj1dhfFgJ6INiPxEWKdu9s73kzazuWXMnFq+20JGYFberllNJz95u5IseougdUdej8M/NEo9dSUPTcLdInMFMnkYQl9HQIJ1AXiH4Ms5ihxqiBPAfhxeusC63tW4H/3Pthwzao7/lk5iOjOwtLsJ+AVtesy7yR1pRlt/KbhqJJjWN7umBYH7dpjoaZyCJA017mO6AeN1JKg02Z/kkno4EBtWhp16ymW9NDNtJaBjIzU1U3bteTGstk1N+MCnXL6JdoZQVwcKldUoG0ARpdGYkdyq3jNDVTy8DAo54+SirRs1abtxJGQz89hEZv0yoQ2wpmc5z+Lqy/e5RhS26IRtLveqEXNhshXTxqH1BsNCGXkGKY9H/ytqCnFItSFYDS3TcLvUovBLpA6k7vpTnlwB9kSSac6Qt7vJWLoh1DIuTTwfwDGg/2MU761OqIbfLxVFvnD/HAjH+raUXVqvAGeMl4E5xm1jcaCLi/HxZ8PoXuqBj9Fjp7KqjWzG3tJP9i3oqnJZKWD5u2gwwGfRrYpyMS+oG+8vM6Po+A/seujHN7IUMb/r2BGXrgXLIUD5iynserUZUQQTB2w4OGimJJh/Kq5j+USKG+v5nRlfFoQ/pP2Zsa2UJXXgGRuAmY2m3OkzQ/rG6BtIamv2gDBQcqbim8OZQAZt+b5IyNOzzce29FBfkQOG6/KwbNEK+360wc3Tg5G4pniASTnvVtQdS7jJJILgaRSzSls5ydQ0RUr3f684N57x2CmSikfNaqfNSSXvgs5TmvZzcKYHvEOJMEEJv45DsNR2LWLTV1CMTmCYeTlqyFN24dBEd94Cff3EVCNXkIZT0CBF1HGqeXILHZiEDypxZ5nDJAXLDmh0xFOBJxP+YpFumr/Bbhg1zjPTEy/gK2A6eIOUtomVhAirzb6DGOoyoLt/Vz1WtJJom65/LxNsFWleBihfGMTk2ZYVooo+Ti0RZvsQykYfIO8JViye16ok2sTP0LKsFKup4gm0LN30xKME1LuD3IgUeTVwbR+z2RIDRju3NlmcJIvb645MKff28Lmac1FCOtf0pVheTHDWc3M1b54S1PIeh/U4zW1vNqC2d4WlEL16WQylL24igSqPGPvnVg+aAhrSux2uIwBp/3FX/eUTc8+1fUbAPaz+RhNPLaUjPmihVXLdcYLEzlZa9/UuI+C7bXIEOF5P/Gzb+ztdWpjPn3/snmcRzWJEMBZAjSABYwAPPf4iKQqsDg7mL8eLAg2+fzspdH0kf5vzHcdLtJ8JDnUmXSFQNvBHeTBDM6vWv1ykH8r34XWze82DK5Q1NCZSAaJU8NVB7uVvLyFr5kD+DlkWF4=</div>
+<div id="mkdocs-encrypted-content" style="display:none">MHYJABFoYYNtsxceG+bAlA==;FiquZa46ahLMd8y5I35YvlAvmS1t4Gnf2E9H1eNK6BtvAhp6cU+TLSLZRvF3AjcXHo4HIut8ITNC1n4rlJDBj8CtzS+1scuo0ATOXQRBCfq8diVxR3pmagbLCYHPgNLDQSuyPR/L3b5II9a6MNpT097t/O3ZPsCUdXSArKU/2CWwZXaW4m83LVwUstp9u9aMx9oZ0j0ch+ojplHHbtsoO/o5nHkx7BAJivrA/207IzsGnQugUdDrBeGSVQfNWJXN6l8xXjJ513gs1bNf7bkLTJ8mbeRAam/ch5x/SzNbTecdgHRM2jHIXrelV4ZjC+ZRL3m8KkXW7sEBp+OkNg9VmyuYRNpIV9O79Knh5Rm3bZ/6O0bBrzx49jAqmBXfhyP938qyzpOGI9jA+Osqd/JXIBT0e5idO4BcubUGVOPzqmGmKr4XXKEzaHjtBfQGje9xy6qU4MZINXReMw96GMh9GNyyBvkLk5GP7vww3dlCv/JWf+qY9aq5tSGReSWZcWXkNTbbJZdQhx6Zd5a07z3TnTk7jS56vUkUue38fboNBd5A+bUaO76M/2eMr2cyQORVWobIsEcLtcmYCm9jFyxcO5dgs6aVv7nBSgGwuECyi6SxY+kODYbfHNsrVwxu5gcv0ZhKm/eg8mC7/JLzZXBzdQec3ONpO8qMUASWrQG84MyjjziuY/w5RC9Rx1ZHYbNyAtiN6KPKjA6x0XhB9l/twlVqVLzLdIHEDiqDg1o6zaIDG1Ff2VBGWWOriK/fx5ONSCpdWF7n54TEdmeusIEiYvLVho9+C94pWFDpnFDia0iaVewTXznCOaDem3JoIT7lHKpEw3e23QY7y323NFyQ7axjhrHyebsyhsmpgJqjMT34EHw2trD+j8QC/Qtk5BpTXUm2xg+9HZrhG//mdu8Q6c+MGjWoBAFzXJe42gf/ckuAcR3PXhzWkD6+hV3Bl1eYLy1+iVFDfrVxthvn7fY+hAI1qWTPFsa06IHHJnsqHX5jDV/pt3qDFNcXvMQXvGWrDPWbXspPBI1ekGnXWM/9T4GHgQckH9643ScbarlJWh5DSJViswSjlaqgeAcPoGb9isvTIfmWw+GGDXODBylhPYJKa9+LmpOSdyDvVZZA+7LgsnaKrk+ypaQ9od8aOKSVoYKnWrXfCgoSXXu5t1CeFQqNpHY1B8amd/bsHo3AwhpIcjjrtGWIhLhhK32QS+GR5tRlSSZAmMnWT1nu7anfO+4HhO4S+N382W5JCZ99bVIWh8Va1qrTnwMqyhXlAGCx0q4tMnSz+Y2NsGx/ABBGpDATQZJkzKWk/10RtSesVP7pZSrl+NFMWQP2aGxObPYjZ7MPg7Pu4l2AfnTaBHMcX8jligJ9q1lppX47IEzbQ1Tjf3bNFk9R8GTiUqvf1BSMv3RxRjp39t3/jrf9exOycpcRuYYXhsWaywPJLl+3ScjkZMz57OW7hXflMwQ9T38F+SoRnPKuCgEswvz3YTosKM1M+nf5nZqRvpC64hcl8Xo=</div>
 <div id="mkdocs-decrypted-content" style="display:none">
     <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
         <h1>Some content on this page is proprietary or under embargo</h1>
@@ -591,7 +631,7 @@
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "Emlids/Emlid_GNSS/";
 var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["3Hg4m77QTNNlbARK+DK4QQ==;e+dWVBpnmU1bH1Ki9OBZylE5iP7ubXD9FCVy8h62sSpl51t9QpLVFvshsiG68Oopu/JhD7hgprDa7myFjTvgHaJD9wv+Oz4QmApGmelIeNOJQfwxAfUvmB+VpQuz4Iw0;KAcQ+zOi0X4CczSDsMraVA=="];
+var encryptcontent_keystore = ["GMxZ6ZGuU1hv/VKotyj3tg==;JOzs+HMeiWJJUq453QCCPUvjbiKbs3zgfzPuNKat5xkmqUopXHRKlhSKEEW8VKQy2NmPbLYTfrwsypSNuGsf4uPpElHI0rPj5yrNrav+QKzi9mJcPouxPkESbP5s1LUO;KAcQ+zOi0X4CczSDsMraVA=="];
 var encryptcontent_obfuscate = 0;
 
 </script>

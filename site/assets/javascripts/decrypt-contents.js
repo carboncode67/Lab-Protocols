@@ -248,7 +248,10 @@ function decryptor_reaction(key_or_keys, password_input, decrypted_content, fall
         }
         // any post processing on the decrypted content should be done here
         document$.next(document);
-        
+        let reload_scripts = ['admonition'];
+        for (let i = 0; i < reload_scripts.length; i++) { 
+            reload_js(reload_scripts[i]);
+        }
         if (typeof theme_run_after_decryption !== 'undefined') {
             theme_run_after_decryption();
         }
