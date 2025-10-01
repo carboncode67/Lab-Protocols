@@ -49,14 +49,10 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
- 
-
-markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-
-
+ 
 plugins:
     - search
     - encryptcontent:
