@@ -682,13 +682,13 @@ Here are a few key shortcuts to use when making web pages.</p>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Checklist </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> add an "x" between the brackets to check the box</li>
 </ul>
-<p>They can be used together to make nested lists, for example,</p>
-<pre><code class="language-md">1. task one
-    * Sub tasks 
-2. task 2,
-    - [ ] remember to check the thing
-</code></pre>
-<p>renders as:</p>
+<p>They can be used together to make nested lists, for example,
+<div class="language-md highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">1.</span> task one
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="k">*</span><span class="w"> </span>Sub tasks 
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">2.</span> task 2,
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">- [ ]</span> remember to check the thing
+</span></code></pre></div>
+renders as:</p>
 <ol>
 <li>task one<ul>
 <li>Sub tasks </li>
@@ -700,16 +700,17 @@ Here are a few key shortcuts to use when making web pages.</p>
 </li>
 </ol>
 <h3 id="callouts">Callouts</h3>
-<p>To draw attention to peices of information, or make make callapsable notes to save space, mkdocs supports callouts, which can be created with <code>???+ 'keyword'</code>, or <code>!!! 'keyword'</code>,where keyword defines the type of callout. For example: if I wanted to make a note about specific instrument settings, </p>
-<pre><code class="language-md">!!! note
-    This is an important factoid
-</code></pre>
-<p>would render as: </p>
-<p>!!! note</p>
-<pre><code>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+<p>To draw attention to peices of information, or make make callapsable notes to save space, mkdocs supports callouts, which can be created with <code>???+ 'keyword'</code>, or <code>!!! 'keyword'</code>,where keyword defines the type of callout. For example: if I wanted to make a note about specific instrument settings, 
+<div class="language-md highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>!!! note
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    This is an important factoid
+</span></code></pre></div>
+would render as: </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
-</code></pre>
+massa, nec semper lorem quam in massa.</p>
+</div>
 
 
 
