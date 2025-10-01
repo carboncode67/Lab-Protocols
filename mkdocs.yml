@@ -49,10 +49,20 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+ 
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
 
 
 plugins:
+    - search
     - encryptcontent:
         password_file: 'passwords.yml'
         summary: 'Some content on this page is proprietary or under embargo'
         encryption_info_message: "Contact the Longchamps lab if you would like access."
+        reload_scripts:
+          - admonition
+
