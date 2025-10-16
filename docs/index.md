@@ -1,4 +1,4 @@
-# Welcome to the Farmer Datalab Documentation Repository
+# FDL Documentation Repository
 
 This site contains information, methodologies and guides for instrumentation and practices commonly used in the Longchamps Farmer Data Lab
 
